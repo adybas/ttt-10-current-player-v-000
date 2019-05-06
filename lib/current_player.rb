@@ -4,8 +4,8 @@ def turn_count(board)
 
   board.each do |token|
     if token === "X" || token === "O"
-      number_of_turns += 1  
+      number_of_turns += 1
     end
   end
-
+  number_of_turns
 end
